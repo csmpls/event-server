@@ -4,7 +4,10 @@
   "description": "receives events and stores them in a postgres db",
   "main": "eventserver.js",
   "dependencies": {
-    "restify": "^3.0.2"
+    "pg": "^4.3.0",
+    "pg-hstore": "^2.3.2",
+    "restify": "^3.0.2",
+    "sequelize": "^2.0.6"
   },
   "devDependencies": {},
   "scripts": {
